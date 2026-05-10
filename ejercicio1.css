@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e9e9e9;
+}
+
+.ejercicios{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    margin: 2rem 0;
+}
+
+/* CONTENEDOR */
+
+.container{
+    height: 100vh;
+
+    display: flex;
+    align-items: flex-start;
+
+    border: 6px solid red;
+}
+
+/* CAJAS */
+
+.box{
+    width: 60px;
+    height: 100vh;
+
+    color: white;
+    font-size: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* COLORES */
+
+.box1{ background-color: #1abc9c; }
+.box2{ background-color: #3498db; }
+.box3{ background-color: #9b59b6; }
+.box4{ background-color: #34495e; }
+.box5{ background-color: #f1c40f; }
+.box6{ background-color: #e67e22; }
+.box7{ background-color: #e74c3c; }
+.box8{ background-color: #bdc3c7; }
+.box9{ background-color: #2ecc71; }
+.box10{ background-color: #16a085; }
